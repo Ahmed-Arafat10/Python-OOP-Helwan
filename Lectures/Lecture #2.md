@@ -30,7 +30,7 @@ obj = Car("BMW","X6","2020","Black")
 
 
 
-- Example #2
+- Example #3
 
 ````python
 class Dog:
@@ -46,7 +46,7 @@ print(f"My dog's name is {myDog.age} years old.")
 
 
 
-- Example #2
+- Example #4
 
 ````python
 class Dog:
@@ -70,7 +70,7 @@ print(myDog.roll_over())
 
 
 
-- Example #2
+- Example #5
 
 ````python
 class MainClass:
@@ -89,7 +89,7 @@ class_instance.second()
 
 
 
-- Example #2
+- Example #6
 
 ````python
 class Person:
@@ -106,7 +106,7 @@ p1.sayHello()
 
 
 
-- Example #2
+- Example #7
 
 ````python
 class Person:
@@ -120,7 +120,7 @@ print(p1) # <__main__.Person object at 0x000001D9C2CA5DF0>
 
 
 
-- Example #2
+- Example #8
 
 ````python
 class Person:
@@ -137,7 +137,7 @@ print(p1) # Dan (1234)
 
 
 
-- Example #2
+- Example #9
 
 ````python
 class Employee:
@@ -155,7 +155,7 @@ emp1.age = 40
 print(emp1.age)
 ````
 
-- Example #2
+- Example #10
 
 ````python
 class Car:
