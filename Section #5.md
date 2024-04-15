@@ -1,4 +1,59 @@
-- Practice Example #1
+### Practice Example #1
+
+*Facebook Account Creation System*
+
+*Objective*:  
+Develop a Python program to manage the creation of Facebook accounts.
+
+*Requirements*:
+
+1. *Class Definition*:  
+   - Create a class named Facebook to handle Facebook account operations.
+
+2. *Initialization*:
+   - Implement an __init__ method to initialize each account with a name, email, and password.
+   - Increment the class variable numOfAcc to track the total number of accounts created.
+
+3. *Email Validation*:
+   - Implement the method is_email_valid to validate email addresses.
+   - Ensure that the email contains exactly one '@' and one '.' character.
+
+4. *Password Validation*:
+   - Implement the method is_password_valid to validate passwords.
+   - Passwords must meet the following criteria:
+     - Minimum length of 8 characters.
+     - At least one special character ('@' or '#').
+     - At least one digit.
+     - At least one uppercase letter.
+
+5. *Password Encryption*:
+   - Implement the encrypt method to encrypt passwords using a simple encryption algorithm.
+     - Use the Caesar cipher algorithm, shifting each character by 3 positions.
+   
+6. *Set Email and Password*:
+   - Implement the method set_email to set a valid email address for the account.
+     - Continue prompting the user for input until a valid email is provided.
+   - Implement the method set_password to set a valid password for the account, using the is_password_valid method for validation.
+     - Continue prompting the user for input until a valid password is provided.
+
+7. *Get Password*:
+   - Implement the method get_password to retrieve the encrypted password.
+
+8. *Login Authentication*:
+   - Implement the method login to authenticate users based on their email and password.
+   - Decrypt the provided password using the encrypt method and compare it with the stored encrypted password.
+   - If authentication is successful, print a welcome message with the user's name. Otherwise, print a failure message.
+
+9. *Sample Usage*:
+   - Provide a sample usage demonstrating how to create an account, retrieve email and password, and authenticate using the login method.
+
+10. *Code Quality*:
+    - Ensure that the code is well-commented to explain the functionality of each method.
+    - Adhere to proper coding conventions and style guidelines.
+
+*Note*: Students are expected to implement the methods according to the provided requirements, ensuring correctness, efficiency, and clarity of the code. Additionally, passwords should be encrypted using the Caesar cipher algorithm, shifting each character by 3 positions
+
+- Solution:
 
 ````python
 class Facebook:
